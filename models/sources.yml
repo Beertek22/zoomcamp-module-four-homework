@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: raw_data
+  - name: raw_data_fhv
     description: "Raw data for  FHV trip data for 2019"
     database: de-zoomcamp-bp
     schema: fhv_tripdata_dataset

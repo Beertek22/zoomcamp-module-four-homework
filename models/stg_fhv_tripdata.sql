@@ -1,5 +1,5 @@
 with 
-    source as (select * from {{ source("raw_data", "fhv_tripdata_table")}}),
+    source as (select * from {{ source("raw_data_fhv", "fhv_tripdata_table")}}),
 
     renamed as (
         select 
