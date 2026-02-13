@@ -12,6 +12,4 @@ RUN uv sync --locked
 COPY upload_to_gcs.py .
 COPY upload_fnv_to_gcs.py .
 
-# CMD ["python", "upload_to_gcs.py"] RUN THIS ONE TO UPLOAD YELLOW/GREEN SET
-
-CMD ["python", "upload_fnv_to_gcs.py"]
+ENTRYPOINT ["python"]
